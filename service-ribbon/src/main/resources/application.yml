@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: service-ribbon
+
+swagger:
+  basePackage: com.kevin.web
+  title: Spring Cloud Ribbon
+  description: ribbon描述
+  termsOfServiceUrl: www.baidu.com
+  contact:
+    name: kevin
+    url: www.kevin.com
+    email: kevin_young1208@163.com
+  version: 1.0

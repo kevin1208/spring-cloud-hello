@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8763
+spring:
+  application:
+    name: service-hi
+
+swagger:
+  basePackage: com.kevin.web
+  title: Spring Cloud Eureka Client
+  description: Eureka Client描述
+  termsOfServiceUrl: www.baidu.com
+  contact:
+    name: kevin
+    url: www.kevin.com
+    email: kevin_young1208@163.com
+  version: 1.0

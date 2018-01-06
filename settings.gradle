@@ -1,0 +1,8 @@
+rootProject.name = 'spring-cloud-hello'
+include 'eureka-server'
+include 'service-ribbon'
+include 'swagger'
+include 'eureka-client'
+include 'service-feign'
+include 'service-zuul'
+

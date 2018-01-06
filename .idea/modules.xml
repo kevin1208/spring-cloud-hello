@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_test.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign.iml" group="service-feign" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-feign/service-feign_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_main.iml" group="service-feign" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-feign/service-feign_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_test.iml" group="service-feign" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon.iml" group="service-ribbon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_main.iml" group="service-ribbon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_test.iml" group="service-ribbon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_main.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_test.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-hello.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-hello_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-hello_main.iml" group="spring-cloud-hello" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-hello_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-hello_test.iml" group="spring-cloud-hello" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger/swagger.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger/swagger.iml" group="swagger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger/swagger_main.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger/swagger_main.iml" group="swagger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger/swagger_test.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger/swagger_test.iml" group="swagger" />
+    </modules>
+  </component>
+</project>

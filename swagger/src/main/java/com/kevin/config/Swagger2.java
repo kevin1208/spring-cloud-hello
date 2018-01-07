@@ -19,23 +19,23 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class Swagger2 {
 
-    @Value("${swagger.basePackage}")
-    private String basePackage = "com.kevin.web";
+    @Value("${swagger.basePackage:com.kevin.web}")
+    private String basePackage;
 
-    @Value("${swagger.title}")
-    private String title = "请配置swagger.title";
-    @Value("${swagger.description}")
-    private String description = "请配置swagger.description";
-    @Value("${swagger.termsOfServiceUrl}")
-    private String termsOfServiceUrl = "请配置swagger.termsOfServiceUrl";
-    @Value("${swagger.contact.name}")
-    private String contactName = "请配置swagger.contact.name";
-    @Value("${swagger.contact.url}")
-    private String contactUrl = "请配置swagger.contact.url";
-    @Value("${swagger.contact.email}")
-    private String contactEmail = "请配置swagger.contact.email";
-    @Value("${swagger.version}")
-    private String version = "1.0";
+    @Value("${swagger.title:请配置swagger.title}")
+    private String title;
+    @Value("${swagger.description:请配置swagger.description}")
+    private String description;
+    @Value("${swagger.termsOfServiceUrl:请配置swagger.termsOfServiceUrl}")
+    private String termsOfServiceUrl;
+    @Value("${swagger.contact.name:请配置swagger.contact.name}")
+    private String contactName;
+    @Value("${swagger.contact.url:请配置swagger.contact.url}")
+    private String contactUrl;
+    @Value("${swagger.contact.email:请配置swagger.contact.email}")
+    private String contactEmail;
+    @Value("${swagger.version:1.0}")
+    private String version;
 
     @Bean
     public Docket createRestApi() {
@@ -53,7 +53,7 @@ public class Swagger2 {
                 .description(description)
                 .termsOfServiceUrl(termsOfServiceUrl)
                 .contact(new Contact(contactName, contactUrl, contactEmail))
-                .version("1.0")
+                .version(version)
                 .build();
     }
 

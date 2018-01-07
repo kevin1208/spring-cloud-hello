@@ -10,7 +10,7 @@ spring:
 
 swagger:
   basePackage: com.kevin.web
-  title: Spring Cloud Eureka Client
+#  title: Spring Cloud Eureka Client
   description: Eureka Client描述
   termsOfServiceUrl: www.baidu.com
   contact:

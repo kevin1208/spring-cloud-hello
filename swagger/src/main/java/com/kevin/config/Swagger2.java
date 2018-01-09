@@ -46,11 +46,29 @@ public class Swagger2 {
                 .paths(PathSelectors.any())
                 .build();
     }
-
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title(title)
                 .description(description)
+                .termsOfServiceUrl(termsOfServiceUrl)
+                .contact(new Contact(contactName, contactUrl, contactEmail))
+                .version(version)
+                .build();
+    }
+    @Bean
+    public Docket createRestApiDemo() {
+        return new Docket(DocumentationType.SWAGGER_2).groupName("swagger demo")
+                .apiInfo(apiInfoDemo())
+                .select()
+                .apis(RequestHandlerSelectors.basePackage("com.kevin.demo.swagger.web"))
+                .paths(PathSelectors.any())
+                .build();
+    }
+
+    private ApiInfo apiInfoDemo() {
+        return new ApiInfoBuilder()
+                .title("Swagger API 示例")
+                .description("该组API的描述")
                 .termsOfServiceUrl(termsOfServiceUrl)
                 .contact(new Contact(contactName, contactUrl, contactEmail))
                 .version(version)
